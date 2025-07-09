@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="iso-8859-1">
+	<meta name="description" content="HTML5, CSS3, JavaScript">
+
+	<title>Este texto es el titulo del documento</title>
+		<link rel="stylesheet" href="misestilos.css">
+
+
+	</head>
+<body>
+
+
+	<div id="cuerpo">
+
+			<header id="encabezado"> <h1>Emisora El Mundo</h1>
+
+			
+
+			</header>
+
+
+				<nav id="menu">
+					
+					<ul>
+
+						<li><a href='practica.html' >HOME</a></li>
+						<li><a >COMPRAR </a></li>
+			            <li><a href='loginadmi.html'>ADMINISTRACION</a></li>
+			            <li><a href='contacto.html'>CONTACTO</a></li>
+
+
+
+
+					</ul>
+
+				</nav>
+
+
+
+			<section id="home">
+				<article>
+				<h2>BIENVENIDO A TU EMISORA EL MUNDO</h2>
+					<p>Ofrecemos servicios y ventas de publicidad</p><br>
+					<h1>Bienvenido Estamos a sus Ordenes</h1>
+
+<script type="text/javascript">
+				var valor;
+				valor=prompt("para continuar con la compra seleccione de cuantos min desea su pauta de 1 a 5:","");
+				//convertimos a entero
+				valor=parseInt(valor);
+				switch (valor)
+				{
+						case 1:document.write("Ha seleccionado uno min.\n\n<br>");
+
+								document.write("\nEsta tiene un valor de $60.000");
+							break;
+						case 2:document.write("Ha seleccionado dos min.\n\n<br>");
+							document.write("\nEsta tiene un valor de $70.000");
+							break;
+						case 3:document.write("Ha seleccionado tres min.\n\n<br>");
+							document.write("\nEsta tiene un valor de $80.000");
+							break;
+						case 4:document.write("Ha seleccionado cuatro min.\n\n<br>");
+							document.write("\nEsta tiene un valor de $90.000");
+							break;
+						case 5:document.write("Ha seleccionado cinco min.\n\n<br>");
+							document.write("\nEsta tiene un valor de $100.000");
+							break;
+						
+
+
+
+				}
+				</script>
+<script type="text/javascript">
+				var select;
+				select=prompt("Para confirmar compra ingrese 1. para comprar o 2. para cancelar, e ingrese su nombre a continuacion.","");
+				select=parseInt(select);
+				switch (select)
+				{
+						case 1:var nombre;
+							var apellido;
+							nombre=prompt("ingrese su nombre:´,´");
+							apellido=prompt("ingrese su apellido:´,´");
+							document.write("Hola, compra exitosa<br>");
+							document.write(nombre +"\n");
+							
+						document.write(apellido);
+						break;
+
+						case 2:var nombre;
+							var apellido;
+							nombre=prompt("ingrese su nombre:´,´");
+							apellido=prompt("ingrese su apellido:´,´");
+							document.write("Hola, compra cancelada<br>");
+							document.write(nombre +"\n");
+							document.write(apellido);
+							break;
+						default: document.write("debe ingresar un valor comprendido entre 1 y 2.");
+						}
+
+			</script>
+
+					
+					 </p><br>
+					 
+					</article>
+					</section>
+
+
+
+					
+
+			<aside id="lateral">
+				
+			<img src="elmundo.jpg"  width="200" height="200">
+			</aside>
+
+			<footer id="pie">
+
+				www.elmundoemisora.  
+
+			</footer>
+		</div>
+
+
+		
+
+
+
+
+
+</body>
+</html>
+
+
